@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Railway Ticket Booking Form</title>
+    
+  </head>
+  <body>
+    <div class="container">
+      
+
+      <form class="form-group">
+        <h1 class="text-center">Railway Ticket Booking Passenger Form</h1>
+
+        <div id="form" style="height: 400px">
+          <div id="input5">
+            <h3 class="text-white">Personal Details</h3>
+          </div>
+
+          <div id="input">
+            <input type="text" id="input-group" placeholder="Full Name" />
+            <input type="number" id="input-group" placeholder="Phone Number" />
+            <input type="email" id="input-group" placeholder="Email" />
+            <input type="number" id="input-group" placeholder="Age" />
+            <label style="color: #fff; margin-top: 10px">Gender</label>
+            <div class="gender">
+              <input type="radio" id="Male" name="Gender" value="Male" />
+              <label for="Gender">Male</label>
+              <input type="radio" id="Female" name="Gender" value="Female" />
+              <label for="Gender">Female</label>
+            </div>
+          </div>
+          <button class="btn btn-warning text-white">Add +</button>
+
+          <div class="booking-cta">
+            <button type="submit" class="btn btn-warning text-white">
+              Submit Form
+            </button>
+            <button type="reset" class="btn btn-primary">Clear Form</button>
+          </div>
+        </div>
+      </form>
+
+      <table class="table">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">Sr.No</th>
+            <th scope="col">Passenger Name</th>
+            <th scope="col">Phone Number</th>
+            <th scope="col">Age</th>
+            <th scope="col">Email</th>
+            <th scope="col">Gender</th>
+            <th scope="col">Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Aryan Parekh</td>
+            <td>9832843422</td>
+            <td>19</td>
+            <td>abc@hfhf.com</td>
+            <td>Male</td>
+            <td><button class="btn btn-danger">Delete</button></td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Aryan Parekh</td>
+            <td>9832843422</td>
+            <td>19</td>
+            <td>abc@hfhf.com</td>
+            <td>Male</td>
+            <td><button class="btn btn-danger">Delete</button></td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Aryan Parekh</td>
+            <td>9832843422</td>
+            <td>19</td>
+            <td>abc@hfhf.com</td>
+            <td>Male</td>
+            <td><button class="btn btn-danger">Delete</button></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

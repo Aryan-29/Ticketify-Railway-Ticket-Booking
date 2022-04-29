@@ -1,0 +1,13 @@
+.categories-container {
+  padding: 4rem 3rem;
+}
+
+.category {
+  margin-bottom: 2rem;
+}
+
+.addTrain__from {
+  width: 600px;
+  margin: 0 auto;
+  padding-top: 40px;
+}

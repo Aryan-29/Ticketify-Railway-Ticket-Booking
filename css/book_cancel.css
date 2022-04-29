@@ -1,0 +1,39 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+tr,
+table {
+    text-align: center;
+    width: 80%;
+    padding-top: 110px;
+    padding-left: 55px;
+}
+
+td {
+    vertical-align: middle;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-holder:hover {
+    -ms-transform: scale(1.1);
+    /* IE 9 */
+    -webkit-transform: scale(1.1);
+    /* Safari 3-8 */
+    transform: scale(1.1);
+    box-shadow: 0 100px 100px rgba(145, 92, 182, .4);
+}
+
+.image-holder2:hover {
+    -ms-transform: scale(1.1);
+    /* IE 9 */
+    -webkit-transform: scale(1.1);
+    /* Safari 3-8 */
+    transform: scale(1.1);
+    box-shadow: 0 100px 100px rgba(253, 90, 79, 0.4);
+}
